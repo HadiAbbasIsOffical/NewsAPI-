@@ -16,4 +16,5 @@ Overall, this project provides a convenient way for users to stay updated with t
 
 -Additionally, you may notice that sometimes there's a delay in displaying error messages, even though I've set up promises properly.
 
-Rest assured, I'm working on improving this aspect of the website to ensure a smoother user experience. Thank you for your understanding! ^-^
+Rest assured, I'm working on improving this aspect of the website to ensure a smoother user experience. Thank you for your understanding!
+^-^
