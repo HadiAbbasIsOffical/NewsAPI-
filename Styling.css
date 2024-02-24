@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background-color:#ffffffa3
+}
+.Navbar{
+    background-color: #8d8d8e;
+    border: 1px solid black;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    border: 1px solid black;
+    box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, 0.759);
+
+}
+.NavbarTitle {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 200px;
+    text-decoration: underline 0.5px solid black;
+    margin: 0;
+    flex: 1;
+}
+.NavbarTitle:hover{
+    cursor: pointer;
+}
+.SearchContainer {
+    display: flex;
+    align-items: center;
+}
+#SearchInput {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+#SearchInput:hover{
+    box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, 0.383);
+    transition: 0.3s;
+
+}
+.SearchButton {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.SearchButton:hover {
+    background-color: #0056b3;
+}
+.Articletitle{
+    font-size: large;
+}
+.CardDiv{
+    border:1px solid black;
+    display:inline-block;
+    margin-right: 40px;
+    width: 400px;
+    font-weight: bold;
+    height: 400px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.444);
+
+    border-radius: 5px;
+    word-wrap: break-word;
+    margin: 5px;
+}
+.CardDiv:hover{
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 4px 3px 4px 2px rgb(0, 0, 0);
+
+}
+.ErrorText{
+    color:red;
+    display:none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 2px 4px 2px rgb(0, 0, 0);
+}
+.divImage{
+    max-width: 400px;
+    border-bottom: 1px solid black;
+}
+.InPortion{
+    margin-left:70px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.SearchPortion{
+    margin-left:70px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
